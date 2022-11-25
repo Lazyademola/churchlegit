@@ -15,7 +15,7 @@ function Media() {
             <div className=' ml-28 md:ml-[400px] mt-2 justify-center md:items-center '>
             <a href={`https://audiomack.com/newbreedfaithministry`} 
             type='button'
-              className=' inline-block p-3   md:ml-96 md:mb-6 rounded-md  transition duration-500 bg-pink-500 text-xl md:text-3xl   '>
+              className=' inline-block p-3 hover:bg-cyan-400  md:ml-96 md:mb-6 rounded-md  transition duration-500 bg-pink-500 text-xl md:text-3xl   '>
                 <span>Get Messages <br></br></span>
                 <span>On Audiomack</span>
                 </a>
