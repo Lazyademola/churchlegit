@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className='flex items-center'>
                 <img src={logoImg} alt="logo" className='ml-4 w-20'/>
                 <h1 className='text-2xl hidden md:block font-extralight italic sm:text-3xl mr-8 '>NewBreed</h1>
-                <ul className='hidden md:flex md:ml-[950px] bg-slate-400 '>
+                <ul className='hidden md:flex md:ml-[941px] bg-slate-400 rounded-lg '>
                 <li className=' md:text-xl md:ml-8'><Link activeClass="active"  to="home"  smooth={true} offset={50} duration={500} >Home</Link></li>
                 <li className=' md:text-xl md:ml-8'><Link activeClass="active" to="media"  smooth={true} offset={50} duration={500} >Media</Link></li>
                 <li className=' md:text-xl md:ml-8'><Link activeClass="active" to="about"  smooth={true} offset={50} duration={500} >About</Link></li>
@@ -26,7 +26,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className='hidden md:flex pr-4'>
-                <button className=' text-black border ml-4 mr-[87px] rounded-md bg-indigo-500 hover:bg-transparent hover:text-indigo-600 px-8 py-3'>GIVE</button>
+                <button className=' text-black border ml-4 mr-[87px] rounded-md bg-indigo-500 hover:bg-black hover:text-indigo-600 px-8 py-3'><Link activeClass="active" to="give"  smooth={true} offset={50} duration={500} >GIVE</Link></button>
             </div>
             <div className='md:hidden mr-4' onClick={handleClick} >
             {!nav ? <AiOutlineMenu className='w-5 '  /> : <AiOutlineClose className='w-5'/> }
