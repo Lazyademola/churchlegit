@@ -3,9 +3,12 @@ import React from 'react';
 import {AiOutlineVerticalRight,AiOutlineVerticalLeft} from "react-icons/ai";
 
 const sliderImages = [
-    "/images/1.2.jpg",
-    "/images/1.3.jpg",
-    "/images/1.4.jpg",
+    "/images/img2.jpg",
+    "/images/img54.jpg",
+    "/images/img41.jpg",
+    "/images/img58.jpg",
+    "/images/img38.jpg",
+    "/images/img5.png",
 ];
 let count = 0;
 let slideInterval;
@@ -52,9 +55,9 @@ export default function Herosection () {
         slideRef.current.classList.add('fade-anim');
     };
   return (
-    <div name="home" ref={slideRef} className="w-full h-full select-none ">
-        <div className=" aspect-w-16 aspect-h-9">
-        <img src={sliderImages[currentIndex]} className="w-full h-screen " alt=""/>
+    <div name="home" ref={slideRef} className="w-full  select-none ">
+        <div className=" object-cover">
+        <img src={sliderImages[currentIndex]} className="w-full h-screen  " alt=""/>
         </div>
         
         <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center">

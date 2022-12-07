@@ -2,8 +2,8 @@ import React from 'react'
 
 const Give = () => {
   return (
-    <div name="give" className=' w-full  my-24'>
-        <div className=' w-full h-[800px] bg-teal-500 absolute mix-blend-overlay'></div>
+    <div name="give" className=' w-full my-24'>
+        <div className=' w-full h-[800px] bg-green-500 absolute  mix-blend-overlay'></div>
         <div className='max-w-[1000px] mx-auto py-12'>
             <div className='text-center py-8 text-slate-300'>
                 <h1 className=' text-3xl uppercase' > Give Online</h1>
