@@ -12,11 +12,13 @@ function Media() {
        <div className=' container flex  mx-auto md:w-[50%] justify-center '>
           <div className=' justify-center items-center '>
             <div className=' mt-4 md:items-center ml-12 '>
-            <a href={`https://audiomack.com/newbreedfaithministry`} 
+              <button>
+              <a href={`https://audiomack.com/newbreedfaithministry`} 
                type='button'
                className=' inline-block p-6 hover:bg-cyan-400 md:ml-96 md:mb-6 rounded-md  transition duration-500 bg-pink-500 text-xl md:text-3xl   '>
-                <span>Audiomack</span>
+                Audiomack
             </a>
+              </button>
             </div>
             <div className='flex p-3 flex-col  '>
               <div className=' md:grid gap-5 grid-cols-3 grid-rows-2  '>
