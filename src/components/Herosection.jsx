@@ -7,9 +7,7 @@ const sliderImages = [
     "/images/img54.jpg",
     "/images/img41.jpg",
     "/images/img34.jpg",
-    "/images/img42.jpg",
-    "/images/img58.jpg",
-    "/images/img38.jpg",
+    
 ];
 let count = 0;
 let slideInterval;
