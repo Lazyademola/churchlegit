@@ -8,8 +8,8 @@ const About = () => {
       <div className=' md:flex'>
         <div >
         <div className='p-5 md:mt-[70px] '>
-            <h1 className='text-5xl font-[Poppins]'>Discover The NewBreed Faith Ministry</h1>
-            <p className='text-3xlxl font-extralight'>We are a Community who firmly believes in God's words. Come journey with us</p>
+            <h1 className='text-3xl md:text-5xl font-[Poppins]'>Discover The NewBreed Faith Ministry</h1>
+            <p className='text-xl md:text-3xl font-extralight'>We are a Community who firmly believes in God's words. Come journey with us</p>
             <hr className='my-4 '></hr>
         </div>
 

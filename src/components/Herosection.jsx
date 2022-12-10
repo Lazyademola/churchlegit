@@ -6,9 +6,9 @@ const sliderImages = [
     "/images/img2.jpg",
     "/images/img54.jpg",
     "/images/img41.jpg",
+    "/images/img5.png",
     "/images/img58.jpg",
     "/images/img38.jpg",
-    "/images/img5.png",
 ];
 let count = 0;
 let slideInterval;
@@ -55,8 +55,8 @@ export default function Herosection () {
         slideRef.current.classList.add('fade-anim');
     };
   return (
-    <div name="home" ref={slideRef} className="w-full  select-none ">
-        <div className=" object-cover">
+    <div name="home" ref={slideRef} className="w-full select-none ">
+        <div className=" ">
         <img src={sliderImages[currentIndex]} className="w-full h-screen  " alt=""/>
         </div>
         
@@ -64,11 +64,11 @@ export default function Herosection () {
                 <button className="bg-black text-white p-1 rounded-full bg-opacity-50
                 cursor-pointer hover:bg-opacity-100 transition"
                  onClick={handleOnPrevClick}>
-                    <AiOutlineVerticalRight size={30}/>
+                    <AiOutlineVerticalRight size={25}/>
                     </button>
                 <button className="bg-black text-white p-1 rounded-full bg-opacity-50
                 cursor-pointer hover:bg-opacity-100 transition" onClick={handleOnNextClick} >
-                    <AiOutlineVerticalLeft size={30}/>
+                    <AiOutlineVerticalLeft size={25}/>
                     </button>
            </div>
     </div>

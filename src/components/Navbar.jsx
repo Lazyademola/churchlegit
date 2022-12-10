@@ -18,10 +18,10 @@ const Navbar = () => {
                 <img src={logoImg} alt="logo" className='ml-4 w-20'/>
                 <h1 className='text-2xl hidden md:block font-extralight italic sm:text-3xl mr-8 '>NewBreed</h1>
                 <ul className='hidden md:flex md:ml-[941px] sm:flex sm:ml-[800px] bg-slate-400 rounded-lg '>
-                <li className=' hover:text-cyan-300 md:text-xl md:ml-8'><Link activeClass="active"  to="home"  smooth={true} offset={50} duration={500} >Home</Link></li>
-                <li className=' hover:text-cyan-300 md:text-xl md:ml-8'><Link activeClass="active" to="media"  smooth={true} offset={50} duration={500} >Media</Link></li>
-                <li className=' hover:text-cyan-300 md:text-xl md:ml-8'><Link activeClass="active" to="about"  smooth={true} offset={50} duration={500} >About</Link></li>
-                <li className=' hover:text-cyan-300 md:text-xl md:ml-8'><Link activeClass="active" to="section"  smooth={true} offset={50} duration={500} >Ministries</Link></li>
+                <li className='  hover:bg-purple-800 hover:text-cyan-300 md:text-xl md:ml-8'><Link activeClass="active"  to="home"  smooth={true} offset={50} duration={500} >Home</Link></li>
+                <li className=' hover:bg-purple-800 hover:text-cyan-300 md:text-xl md:ml-8'><Link activeClass="active" to="media"  smooth={true} offset={50} duration={500} >Media</Link></li>
+                <li className=' hover:bg-purple-800 hover:text-cyan-300 md:text-xl md:ml-8'><Link activeClass="active" to="about"  smooth={true} offset={50} duration={500} >About</Link></li>
+                <li className=' hover:bg-purple-800 hover:text-cyan-300 md:text-xl md:ml-8'><Link activeClass="active" to="section"  smooth={true} offset={50} duration={500} >Ministries</Link></li>
 
                 
                 </ul>
