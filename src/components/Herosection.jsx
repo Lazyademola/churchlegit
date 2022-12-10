@@ -3,11 +3,13 @@ import React from 'react';
 import {AiOutlineVerticalRight,AiOutlineVerticalLeft} from "react-icons/ai";
 
 const sliderImages = [
-    "/images/img2.jpg",
-    "/images/img54.jpg",
-    "/images/img41.jpg",
-    "/images/img34.jpg",
-    
+    "/images/img2.JPG",
+    "/images/img54.JPG",
+    "/images/img41.JPG",
+    "/images/img34.JPG",
+    "/images/img42.JPG",
+    "/images/img58.JPG",
+    "/images/img38.JPG",
 ];
 let count = 0;
 let slideInterval;
@@ -26,7 +28,7 @@ export default function Herosection () {
          slideRef.current.addEventListener('mouseleave', startSlider);
 
         startSlider();
-        return ( )=> {
+        return () => {
          pauseSlider();
         }
     },[]);
