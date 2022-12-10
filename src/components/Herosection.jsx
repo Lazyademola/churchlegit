@@ -6,7 +6,8 @@ const sliderImages = [
     "/images/img2.jpg",
     "/images/img54.jpg",
     "/images/img41.jpg",
-    "/images/img5.png",
+    "/images/img34.jpg",
+    "/images/img42.jpg",
     "/images/img58.jpg",
     "/images/img38.jpg",
 ];
@@ -57,7 +58,7 @@ export default function Herosection () {
   return (
     <div name="home" ref={slideRef} className="w-full select-none ">
         <div className=" ">
-        <img src={sliderImages[currentIndex]} className="w-full h-screen  " alt=""/>
+        <img src={sliderImages[currentIndex]} className="w-full h-screen " alt=""/>
         </div>
         
         <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center">
